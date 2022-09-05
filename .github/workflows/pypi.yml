@@ -157,7 +157,7 @@ jobs:
       - name: Build wheels
         uses: pypa/cibuildwheel@v2.9.0
         with:
-          output-dir: dist/wheels
+          output-dir: dist
 
 
       - uses: actions/upload-artifact@v3
